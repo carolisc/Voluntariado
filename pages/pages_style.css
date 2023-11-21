@@ -8,13 +8,6 @@ a {
     cursor: pointer;
 }
 
-a.link-retangulo {
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    flex: 1; /* Adiciona flexibilidade ao link */
-}
-
 .title {
     font-size: 8vh;
     font-weight: 600;
@@ -42,6 +35,8 @@ a.link-retangulo {
     font-weight: 400;
     margin: 2px;
     border-radius: 10px;
+
+    background-color: rgb(229, 150, 3);
 
     flex: 1;
 }
