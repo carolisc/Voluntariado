@@ -22,6 +22,11 @@ a {
     color: gray;
 }
 
+.voltar {
+    font-size: 3vh;
+    text-align: left;
+}
+
 .retangulo {
     min-width: 400px;
     height: 300px;
@@ -53,5 +58,21 @@ a {
 @media screen and (max-width: 400px) {
     .retangulo {
       min-width: 200px;
+      font-size: 25px;
+    }
+
+    .title {
+        font-size: 6vh;
+    }
+
+    .subtitle {
+        font-size: 3vh;
     }
   }
+
+  @media screen and (max-width: 350px) {
+    .title {
+        font-size: 5vh;
+    }
+    
+}
