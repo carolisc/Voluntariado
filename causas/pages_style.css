@@ -28,7 +28,6 @@ a {
 }
 
 .retangulo {
-    padding: 10px;
     min-width: 400px;
     height: 300px;
     background-color: #3498db; 
